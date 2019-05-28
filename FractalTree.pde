@@ -59,7 +59,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 
 	{ 
 
-		stroke(255,0,0);
+		stroke(0,250,20);
 
 		strokeWeight(2);
 
@@ -71,7 +71,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 
 	else{
 
-		fill(225,0,0);
+		fill(0);
 
 		ellipse(endX1, endY1,8,8);
 
